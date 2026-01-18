@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+  --color-bg: #F8F7F4;
+  --color-surface: #F1F0EC;
+  --color-border: #DAD8D2;
+  --color-text: #1F2328;
+  --color-text-muted: #6B7075;
+  --color-primary: #4A5B6A;
+  --color-primarymuted: #E4E9ED;
+}
+
 @layer base {
   html, body {
     font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont,
